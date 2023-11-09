@@ -1,0 +1,31 @@
+
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+	"username": "fjbotha",
+	"email": "email@address.co.za",
+	"telephone": "123456789",
+	"address": "my address",
+	"lastname": "Botha",
+	"firstname": "FJ",
+	"password": "password"
+}
+###
+
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+	"username": "admin",
+	"password": "P@ssw0rd"
+}
+###
+
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+	"username": "MasonCarlson",
+	"password": "P@ssw0rd"
+}

@@ -1,2 +1,2 @@
-# express-mysql-auth-template
-ExpressJS with Mysql / Sequelize and Authentication template
+# ExpressJS / MySQL / Sequelize / Auth
+Template express js application with MySQL database and authentication
